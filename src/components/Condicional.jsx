@@ -31,7 +31,7 @@ function Condicional() {
             {userEmail &&(
                 <div>
                     <p>o E-mail do usuário é:{userEmail}</p>
-                    <button onclick={limparEmail}>Limpar E-mail</button>
+                    <button onClick={limparEmail}>Limpar E-mail</button>
                 </div>
             )}
             </form>
