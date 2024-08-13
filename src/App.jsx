@@ -1,17 +1,11 @@
 import './App.css';
-import OutraLista from './components/OutraLista';
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
 
 
 function App() {
-  const meusItens = ['react', 'vue', 'angula']
 
   return(
-    <div className="App">
-      <h1>Renderização de listas</h1>
-      <OutraLista itens={meusItens}/>
-      <OutraLista itens={[]}/>
-    </div>
-    
+
   )
 }
 
